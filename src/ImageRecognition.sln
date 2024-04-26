@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{866F3DB9-3DC8-4414-9740-25EF28D370B1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ML.ClusterPrediction", "ML.ClusterPrediction\ML.ClusterPrediction.csproj", "{E0D42FCA-269E-4B31-9C36-73E897A1E46B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ML.ImageRecognition", "ML.ImageRecognition\ML.ImageRecognition.csproj", "{54C8787B-809F-4E0A-9913-3A425DAD9432}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ML_ImageRegognition_ConsoleApp1", "ML_ImageRegognition_ConsoleApp1\ML_ImageRegognition_ConsoleApp1.csproj", "{222FEF9A-724C-43F6-928F-A479F31136A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ML_ImageRegognition_WebApi1", "ML_ImageRegognition_WebApi1\ML_ImageRegognition_WebApi1.csproj", "{3E43D2CD-6D3B-4C7D-BCFE-2BA8C35DB0DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0D42FCA-269E-4B31-9C36-73E897A1E46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D42FCA-269E-4B31-9C36-73E897A1E46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D42FCA-269E-4B31-9C36-73E897A1E46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D42FCA-269E-4B31-9C36-73E897A1E46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C8787B-809F-4E0A-9913-3A425DAD9432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C8787B-809F-4E0A-9913-3A425DAD9432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C8787B-809F-4E0A-9913-3A425DAD9432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C8787B-809F-4E0A-9913-3A425DAD9432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222FEF9A-724C-43F6-928F-A479F31136A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222FEF9A-724C-43F6-928F-A479F31136A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222FEF9A-724C-43F6-928F-A479F31136A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222FEF9A-724C-43F6-928F-A479F31136A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E43D2CD-6D3B-4C7D-BCFE-2BA8C35DB0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E43D2CD-6D3B-4C7D-BCFE-2BA8C35DB0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E43D2CD-6D3B-4C7D-BCFE-2BA8C35DB0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E43D2CD-6D3B-4C7D-BCFE-2BA8C35DB0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {925CCE7A-BD94-4FA1-9D85-0A0E01F854C9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\_repos\\Tensor-ImageRecognition\\src\\ML.ImageRecognition\\ML.ImageRecognition.csproj": {}
+  },
+  "projects": {
+    "D:\\_repos\\Tensor-ImageRecognition\\src\\ML.ImageRecognition\\ML.ImageRecognition.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_repos\\Tensor-ImageRecognition\\src\\ML.ImageRecognition\\ML.ImageRecognition.csproj",
+        "projectName": "ML.ImageRecognition",
+        "projectPath": "D:\\_repos\\Tensor-ImageRecognition\\src\\ML.ImageRecognition\\ML.ImageRecognition.csproj",
+        "packagesPath": "C:\\Users\\hero1\\.nuget\\packages\\",
+        "outputPath": "D:\\_repos\\Tensor-ImageRecognition\\src\\ML.ImageRecognition\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hero1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.ML.Vision": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "SciSharp.TensorFlow.Redist": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
